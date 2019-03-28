@@ -3,7 +3,22 @@ global-styling:
     theme:
       css/style.css: {}
       css/custom.css: {}
-fonts:
+  fonts:
+    css:
+      theme:
+        'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800': { type: external }
+  js:
+    js/custom.js: {}
+
+  dependencies:
+    - core/jquery
+
+article-type:
   css:
     theme:
-      'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800': { type: external }
+      css/article-style.css: {}
+
+basic-type:
+  css:
+    theme:
+      css/basic-style.css: {}

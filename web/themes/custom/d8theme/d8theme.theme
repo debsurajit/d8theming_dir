@@ -6,3 +6,15 @@
  *
  * Place your custom PHP code in this file.
  */
+function d8theme_preprocess_node(&$variables) {
+  $node = $variables['node'];
+  //check content type
+  if ($node->getType() == 'article') {
+    $variables['#attached']['library'][] = 'd8theme/article-type';
+  }
+
+  if ($node->getType() == 'page') {
+    $variables['#attached']['library'][] = 'd8theme/basic-type';
+  }
+}
+
