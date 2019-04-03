@@ -1,0 +1,22 @@
+uuid: f955b393-601c-42f4-8ab0-dce324e11ce2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - d8theme
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: d8theme_content
+theme: d8theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

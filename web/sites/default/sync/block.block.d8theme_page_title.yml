@@ -1,0 +1,20 @@
+uuid: fe7c88db-acd5-41f7-acfd-512b2ae0670e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - d8theme
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: d8theme_page_title
+theme: d8theme
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 202ef7ba-eb9e-4192-b15a-ae778fcac81e
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - d8theme
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: d8theme_search
+theme: d8theme
+region: sidebar_second
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }
