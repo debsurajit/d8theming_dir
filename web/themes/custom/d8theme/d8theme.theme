@@ -18,3 +18,10 @@ function d8theme_preprocess_node(&$variables) {
   }
 }
 
+function d8theme_page_attachments_alter(&$page){
+  $path = $current_path = \Drupal::service('path.current')->getPath();
+  if($path == '/article-listing') {
+    $page['#attached']['library'][] = 'd8theme/article-listing';
+  }
+}
+

@@ -22,3 +22,13 @@ basic-type:
   css:
     theme:
       css/basic-style.css: {}
+
+article-listing:
+  css:
+    theme:
+      css/slick.css: {}
+      css/slick-theme.css: {}
+      css/article-listing.css: {}
+  js:
+    js/slick.min.js: {}
+    js/article-listing.js: {}
